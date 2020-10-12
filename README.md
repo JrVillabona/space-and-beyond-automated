@@ -1,4 +1,4 @@
-# Space Beyond Test
+# Space Beyond E2E Test
 
 ## The test has been done with Javascript, Cypress.io & Cucumber (BDD Framework)
 
