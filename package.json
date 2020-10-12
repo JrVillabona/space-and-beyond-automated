@@ -1,0 +1,39 @@
+{
+	"name": "space-and-beyond-automated",
+	"version": "1.0.0",
+	"description": "Space & Beyond E2E",
+	"main": "index.js",
+	"scripts": {
+		"cy:open": "cypress open",
+		"cy:run": "cypress run",
+		"cy:run:chrome": "cypress run --browser chrome",
+		"cy:run:firefox": "cypress run --browser firefox",
+		"cy:run:edge": "cypress run --browser edge",
+		"test": "cypress run --spec \"**/*.feature\"",
+		"test:all": "cypress run --spec \"**/*.features\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JrVillabona/space-and-beyond-automated.git"
+	},
+	"keywords": [
+		"Automation",
+		"Cypress",
+		"E2E"
+	],
+	"author": "Julian R Villabona A",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/JrVillabona/space-and-beyond-automated/issues"
+	},
+	"homepage": "https://github.com/JrVillabona/space-and-beyond-automated#readme",
+	"devDependencies": {
+		"cypress": "^5.3.0",
+		"cypress-cucumber-preprocessor": "^3.0.0",
+		"cypress-xpath": "^1.6.0",
+		"prettier": "^2.1.2"
+	},
+	"cypress-cucumber-preprocessor": {
+		"nonGlobalStepDefinitions": true
+	}
+}
