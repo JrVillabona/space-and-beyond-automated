@@ -1,0 +1,18 @@
+{
+	"baseUrl": "http://demo.testim.io/",
+	"video": false,
+	"watchForFileChanges": false,
+	"chromeWebSecurity": false,
+	"defaultCommandTimeout": 6000,
+	"execTimeout": 60000,
+	"taskTimeout": 60000,
+	"pageLoadTimeout": 60000,
+	"requestTimeout": 15000,
+	"responseTimeout": 15000,
+	"viewportWidth": 1280,
+	"viewportHeight": 720,
+	"waitForAnimation": true,
+	"animationDistanceTreshold": 20,
+	"failOnStatusCode": false,
+	"testFiles": "**/*.feature"
+}
