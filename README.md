@@ -2,7 +2,7 @@
 
 ## The test has been done with Javascript, Cypress.io & Cucumber (BDD Framework)
 
-Concept for Automation functional testing using Javascript, Cypress.io and Cucumber. It shows any of solutions for automation test suite for different user stories of admin-advertisement website. Javascript is the language used to write the test code.
+Concept for Automation functional testing using Javascript, Cypress.io and Cucumber. It shows any of solutions for automation test suite for Space Beyond website. Javascript is the language used to write the test code.
 
 Cucumber, along with Gherkin, is the testing framework. Gherkin is the business language used to write the tests in a “human readable” way. Cucumber helps capture test results as well.
 
