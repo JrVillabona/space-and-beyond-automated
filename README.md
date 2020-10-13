@@ -54,17 +54,22 @@ Note: Excluding Electron, any browser you want to run Cypress tests in needs to 
 
 In the case of Gherkin, Background was used in some tests, and in others the use of Before with the help of tags.
 
-## User stories with their respective .feature
+## Features with their respective scenarios:
 
 1. As an Space beyond user
    I fill out the form
    In order to complete the checkout
+   
+   Scenario: Complete the checkout
 
 - **CompleteCheckout.feature**
 
 2. As an Space beyond user
    I want to search with different filters
    In order to book a destination properly
+   
+   Scenario: Make a search
+   Scenario: Filter by Launch, Planet color and Price
 
 - **SelectDestination.feature**
 
