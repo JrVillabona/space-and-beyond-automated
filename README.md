@@ -56,17 +56,13 @@ In the case of Gherkin, Background was used in some tests, and in others the use
 
 ## Features with their respective scenarios:
 
-1. As an Space beyond user
-   I fill out the form
-   In order to complete the checkout
+1. As an Space beyond user, I fill out the form, In order to complete the checkout
    
    - Scenario: Complete the checkout
 
 **CompleteCheckout.feature**
 
-2. As an Space beyond user
-   I want to search with different filters
-   In order to book a destination properly
+2. As an Space beyond user, I want to search with different filters, In order to book a destination properly
    
    - Scenario: Make a search
    - Scenario: Filter by Launch, Planet color and Price
