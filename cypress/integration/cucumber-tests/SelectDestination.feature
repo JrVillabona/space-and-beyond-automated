@@ -10,7 +10,7 @@ Feature: Select Destination
     When I click on Select Destination button
 
   Scenario: Make a search
-    Then I see the results
+    Then I can see the results
 
   Scenario: Filter by Launch, Planet color and Price
     And I select "Tongli", "Blue", and "1200"
